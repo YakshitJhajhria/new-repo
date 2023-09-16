@@ -1,13 +1,17 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Profile from '@/components/profile/Profile'
+import Button from '@/components/manage-assests/Button'
+import Card from '@/components/manage-assests/Card'
+import Manageassestsmain from '@/components/manage-assests/Manage-assests-main'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
    <>
-   <Profile/>
+   {/* <Button/> */}
+   {/* <Card/> */}
+   <Manageassestsmain/>
    </>
   )
 }
